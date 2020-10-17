@@ -1,0 +1,131 @@
+body {
+	font-family: calibri;
+}
+
+#calendar-outer {
+	width: 574px;
+	margin-top: 10px;
+}
+
+#calendar-outer ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#calendar-outer ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.prev {
+	display: inline-block;
+	float: left;
+	cursor: pointer
+}
+
+.next {
+	display: inline-block;
+	float: right;
+	cursor: pointer
+}
+
+
+div.calendar-nav {
+	background-color: #0d4665;
+	border-radius: 0px;
+	text-align: center;
+	padding: 10px;
+	color: #FFF;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+#calendar-outer .week-name-title li {
+	display: inline-block;
+	padding: 10px 27px;
+	color: #fff;
+	font-size: 0.95em;
+	font-weight: 600;
+	
+}
+.week-name-title{
+	background-color: #ff0000;
+	margin-top: 16px!important;
+}
+
+/* .week-day-cell li {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	vertical-align: middle;
+	background-color: #f6ffc6;
+	color: #ff8e8e;
+	border: 1px solid #f1f0f0;
+	border-radius: 4px;
+	font-size: 1.2em;
+} */
+
+ .week-day-cell li {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #07941f;
+    border: 1px solid #f1f0f0;
+    /* border-radius: 4px; */
+    font-size: 1.2em;
+}
+#body-overlay {background-color: rgba(0, 0, 0, 0.6);z-index: 999;position: absolute;left: 0;top: 0;width: 100%;height: 100%;display: none;}
+#body-overlay div {position:absolute;left:50%;top:50%;margin-top:-32px;margin-left:-32px;}
+
+body, div, form, input, select, p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+select {
+    width: 14%;
+    padding: 7px 0;
+    background: transparent;
+}
+input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input {
+    width: calc(15% - 19px);
+    padding: 5px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
